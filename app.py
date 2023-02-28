@@ -72,7 +72,7 @@ if st.button('Predict Probability'):
 
 
     result = pipe.predict_proba(input_df)
-    print(result)
+
     lossprob = result[0][0]
 
     winprob = result[0][1]
